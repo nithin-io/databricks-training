@@ -8,7 +8,7 @@ The objective of this practice session is to strengthen SQL querying skills by w
 
 ---
 
-🧱 Database Setup
+# 🧱 Database Setup
 
 The following table was created and used for SQL practice:
 
@@ -27,7 +27,7 @@ Sample employee records were inserted for executing and analyzing SQL queries.
 
 ---
 
-🔑 Core Concepts Implemented
+# 🔑 Core Concepts Implemented
 
 * Data Retrieval
 * Filtering Records
@@ -39,9 +39,9 @@ Sample employee records were inserted for executing and analyzing SQL queries.
 
 ---
 
-📚 Topics Covered
+# 📚 Topics Covered
 
-1️⃣ SELECT Queries
+## 1️⃣ SELECT Queries
 
 * Retrieving all employee records using "SELECT"
 * Selecting specific columns
@@ -49,7 +49,7 @@ Sample employee records were inserted for executing and analyzing SQL queries.
 
 ---
 
-2️⃣ WHERE Clause
+## 2️⃣ WHERE Clause
 
 * Filtering employees based on:
   
@@ -60,21 +60,21 @@ Sample employee records were inserted for executing and analyzing SQL queries.
 
 ---
 
-3️⃣ GROUP BY Clause
+## 3️⃣ GROUP BY Clause
 
 * Grouping records department-wise and city-wise
 * Performing calculations on grouped data
 
 ---
 
-4️⃣ HAVING Clause
+## 4️⃣ HAVING Clause
 
 * Filtering grouped records using conditions
 * Comparing grouped aggregate values
 
 ---
 
-5️⃣ TOP / LIMIT Queries
+## 5️⃣ TOP / LIMIT Queries
 
 * Displaying top-paid employees
 * Finding employees with highest experience
@@ -82,14 +82,14 @@ Sample employee records were inserted for executing and analyzing SQL queries.
 
 ---
 
-6️⃣ DISTINCT Keyword
+## 6️⃣ DISTINCT Keyword
 
 * Retrieving unique values from columns
 * Finding distinct departments, cities, and salaries
 
 ---
 
-7️⃣ Comparison Operators
+## 7️⃣ Comparison Operators
 
 * Using:
   
@@ -103,7 +103,7 @@ for conditional filtering
 
 ---
 
-8️⃣ Logical Operators
+## 8️⃣ Logical Operators
 
 * Using:
   
@@ -115,21 +115,21 @@ to combine multiple conditions
 
 ---
 
-9️⃣ IN and NOT IN Operators
+## 9️⃣ IN and NOT IN Operators
 
 * Filtering records using multiple values
 * Excluding specific records from query results
 
 ---
 
-🔟 BETWEEN Operator
+## 🔟 BETWEEN Operator
 
 * Filtering records within a specific range
 * Working with salary, experience, and employee IDs
 
 ---
 
-1️⃣1️⃣ LIKE Operator
+## 1️⃣1️⃣ LIKE Operator
 
 * Pattern matching using:
   
@@ -140,7 +140,7 @@ to combine multiple conditions
 
 ---
 
-💻 Practice Work
+# 💻 Practice Work
 
 * ✅ Created and inserted employee records into the "Employees" table
 
@@ -157,7 +157,7 @@ to combine multiple conditions
 
 ---
 
-🧠 Key Learnings
+# 🧠 Key Learnings
 
 * Understanding how filtering works using "WHERE"
 * Difference between "WHERE" and "HAVING"
@@ -167,7 +167,7 @@ to combine multiple conditions
 
 ---
 
-🛠️ Tools Used
+# 🛠️ Tools Used
 
 * 🧪 DB-Fiddle
 * 🐬 MySQL
@@ -175,7 +175,7 @@ to combine multiple conditions
 
 ---
 
-🚀 Next Steps
+# 🚀 Next Steps
 
 * Learn advanced joins
 * Practice subqueries
@@ -184,7 +184,7 @@ to combine multiple conditions
 
 ---
 
-📁 Files Included
+# 📁 Files Included
 
 File Name| Description
 "data_creation.sql"| Table creation and data insertion script
@@ -193,6 +193,6 @@ File Name| Description
 
 ---
 
-✅ Conclusion
+# ✅ Conclusion
 
 This practice session improved SQL querying skills through hands-on exercises involving filtering, grouping, sorting, logical operations, and pattern matching. The exercises provided practical exposure to real-world database operations and strengthened overall confidence in writing structured SQL queries.
