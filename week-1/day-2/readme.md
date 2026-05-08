@@ -12,16 +12,16 @@ The objective of this practice session is to strengthen SQL querying skills by w
 
 The following table was created and used for SQL practice:
 
-- 👨‍💼 Employees
+* 👨‍💼 Employees
 
 The table includes the following fields:
 
-- "emp_id"
-- "emp_name"
-- "department"
-- "salary"
-- "city"
-- "experience"
+* "emp_id"
+* "emp_name"
+* "department"
+* "salary"
+* "city"
+* "experience"
 
 Sample employee records were inserted for executing and analyzing SQL queries.
 
@@ -29,13 +29,13 @@ Sample employee records were inserted for executing and analyzing SQL queries.
 
 🔑 Core Concepts Implemented
 
-- Data Retrieval
-- Filtering Records
-- Aggregate Functions
-- Grouping Data
-- Sorting Results
-- Conditional Queries
-- Pattern Matching
+* Data Retrieval
+* Filtering Records
+* Aggregate Functions
+* Grouping Data
+* Sorting Results
+* Conditional Queries
+* Pattern Matching
 
 ---
 
@@ -43,122 +43,144 @@ Sample employee records were inserted for executing and analyzing SQL queries.
 
 1️⃣ SELECT Queries
 
-- Retrieving all employee records
-- Selecting specific columns
-- Displaying department-wise employee information
+* Retrieving all employee records using "SELECT"
+* Selecting specific columns
+* Displaying employee details department-wise
+
+---
 
 2️⃣ WHERE Clause
 
-Filtering employees based on:
+* Filtering employees based on:
+  
+  * Salary
+  * City
+  * Department
+  * Experience
 
-- Salary
-- City
-- Department
-- Experience
+---
 
 3️⃣ GROUP BY Clause
 
-- Grouping records department-wise and city-wise
-- Performing calculations on grouped data
+* Grouping records department-wise and city-wise
+* Performing calculations on grouped data
+
+---
 
 4️⃣ HAVING Clause
 
-- Filtering grouped records using conditions
-- Comparing grouped aggregate values
+* Filtering grouped records using conditions
+* Comparing grouped aggregate values
+
+---
 
 5️⃣ TOP / LIMIT Queries
 
-- Displaying top-paid employees
-- Finding employees with highest experience
-- Limiting query results
+* Displaying top-paid employees
+* Finding employees with highest experience
+* Limiting query results
+
+---
 
 6️⃣ DISTINCT Keyword
 
-- Retrieving unique values from columns
-- Finding distinct departments, cities, and salaries
+* Retrieving unique values from columns
+* Finding distinct departments, cities, and salaries
+
+---
 
 7️⃣ Comparison Operators
 
-Using:
+* Using:
+  
+  * ">"
+  * "<"
+  * ">="
+  * "<="
+  * "<>"
 
-- ">"
-- "<"
-- ">="
-- "<="
-- "<>"
+for conditional filtering
 
-for conditional filtering.
+---
 
 8️⃣ Logical Operators
 
-Using:
+* Using:
+  
+  * "AND"
+  * "OR"
+  * "NOT"
 
-- "AND"
-- "OR"
-- "NOT"
+to combine multiple conditions
 
-to combine multiple conditions.
+---
 
 9️⃣ IN and NOT IN Operators
 
-- Filtering records using multiple values
-- Excluding specific records from query results
+* Filtering records using multiple values
+* Excluding specific records from query results
+
+---
 
 🔟 BETWEEN Operator
 
-- Filtering records within a specific range
-- Working with salary, experience, and employee IDs
+* Filtering records within a specific range
+* Working with salary, experience, and employee IDs
+
+---
 
 1️⃣1️⃣ LIKE Operator
 
-Pattern matching using:
+* Pattern matching using:
+  
+  * "%" → Multiple characters
+  * "_" → Single character
 
-- "%" → Multiple characters
-- "_" → Single character
-
-Searching employee names, departments, and cities based on patterns.
+* Searching employee names, departments, and cities based on patterns
 
 ---
 
 💻 Practice Work
 
-- ✅ Created and inserted employee records into the Employees table
-- ✅ Solved 55 SQL queries
-- 📈 Practiced beginner to intermediate-level SQL operations
+* ✅ Created and inserted employee records into the "Employees" table
 
-🌍 Real-World Scenarios Practiced
+* ✅ Solved 55 SQL queries
 
-- Employee salary filtering
-- Department analysis
-- Experience-based queries
-- Pattern matching techniques
+* 📈 Practiced beginner to intermediate-level SQL operations
+
+* 🌍 Worked on real-world employee database scenarios including:
+  
+  * Salary filtering
+  * Department analysis
+  * Experience-based queries
+  * Pattern matching techniques
 
 ---
 
 🧠 Key Learnings
 
-- Understanding how filtering works using "WHERE"
-- Difference between "WHERE" and "HAVING"
-- Importance of aggregate functions with "GROUP BY"
-- Using logical operators for complex conditions
-- Efficient data filtering using "IN", "BETWEEN", and "LIKE"
+* Understanding how filtering works using "WHERE"
+* Difference between "WHERE" and "HAVING"
+* Importance of aggregate functions with "GROUP BY"
+* Using logical operators for complex conditions
+* Efficient data filtering using "IN", "BETWEEN", and "LIKE"
 
 ---
 
 🛠️ Tools Used
 
-- 🧪 DB-Fiddle
-- 🐬 MySQL
-- 🌐 GitHub
+* 🧪 DB-Fiddle
+* 🐬 MySQL
+* 🌐 GitHub
 
 ---
 
 🚀 Next Steps
 
-- Learn advanced joins
-- Practice subqueries
-- Explore normalization concepts
-- Work on mini database projects
+* Learn advanced joins
+* Practice subqueries
+* Explore normalization concepts
+* Work on mini database projects
 
 ---
 
