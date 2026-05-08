@@ -1,8 +1,8 @@
-📅 Week 1 - Day 2
+# 📅 Week 1 - Day 2
 
-🗄️ SQL Query Practice – Filtering & Operators
+# 🗄️ SQL Query Practice – Filtering & Operators
 
-🎯 Objective
+## 🎯 Objective
 
 The objective of this practice session is to strengthen SQL querying skills by working with a single relational table named Employees and performing different types of filtering, grouping, sorting, and pattern-matching operations.
 
