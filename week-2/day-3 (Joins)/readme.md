@@ -1,6 +1,6 @@
 # 📅 Week 2 - Day 3
 
-# 🔗 SQL Self Joins and Advanced Join Practice Assignment
+# 🔗 SQL Self Joins and Advanced Join Assignment
 
 ## 🎯 Objective
 
