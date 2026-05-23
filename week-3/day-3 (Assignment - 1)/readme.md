@@ -255,5 +255,3 @@ Through this assignment, I learned:
 | ✅ SORT / ORDERBY |
 | ✅ LIMIT |
 
-
-✨ Databricks PySpark Practice Assignment ✨
