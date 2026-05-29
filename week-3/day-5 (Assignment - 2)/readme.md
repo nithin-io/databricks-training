@@ -1,8 +1,14 @@
 # 📅 Week 3 - Day 5
 
-## PySpark DataFrame Aggregations
+## 📆 PySpark DataFrame Aggregations
 
-### Topics Covered
+### 🎯 Objective
+
+The objective of this session is to understand data aggregation and summarization techniques in PySpark. Learners will explore methods to identify unique records, remove duplicates, sort datasets, group records, and generate aggregate statistics for analytical reporting.
+
+---
+
+### 📚 Topics Covered
 
 - distinct()
 - dropDuplicates()
@@ -10,17 +16,19 @@
 - groupBy()
 - agg()
 
-### Learning Outcomes
+---
+
+### 🎯 Learning Outcomes
 
 - Identify unique records.
-- Remove duplicate records.
-- Sort data efficiently.
+- Remove duplicate data.
+- Sort datasets effectively.
 - Group records for analysis.
 - Perform aggregate calculations.
-
-### Conclusion
-
-This session focused on data summarization and aggregation techniques. Learners developed the ability to organize, clean, and summarize datasets, enabling meaningful insights to be generated from large volumes of data.
+- Generate meaningful reports from data.
 
 ---
 
+### ✅ Conclusion
+
+This session focused on organizing and summarizing data using aggregation techniques. Learners gained practical experience in generating analytical insights from datasets through grouping, sorting, and aggregation operations.
