@@ -1,438 +1,222 @@
-# 🛒 E-Commerce Orders Analysis Using PySpark
+🚀 Week 4 – E-Commerce Orders Analysis Using PySpark
 
-<div align="center">
+🎯 Objective
 
-# 🚀 PySpark Data Engineering Assignment
-
-### E-Commerce Analytics using PySpark
-
-### 📌 Assignment Overview
-
-This project focuses on analyzing E-Commerce Orders data using PySpark. The assignment covers DataFrame transformations, aggregations, joins, window functions, advanced transformations, and real-world Data Engineering scenarios commonly used in Databricks and Spark environments.
-
-**Total Questions Solved:** 75
-
-</div>
+This week focused on performing end-to-end E-Commerce data analysis using PySpark. The practice covered DataFrame transformations, filtering, aggregations, joins, window functions, advanced transformations, and real-world business analytics scenarios commonly used in Data Engineering projects.
 
 ---
 
-# 📅 Day 1: Basic Transformations & Filtering
+📅 Day 1 – DataFrame Transformations & Filtering
 
-## 🎯 Objective
+📚 Topics Covered
 
-Learn and implement fundamental DataFrame transformations and filtering operations.
+🔹 Basic Transformations
 
-## 📚 Topics Covered
+- Column Selection
+- Column Renaming
+- Derived Columns using "withColumn()"
+- Conditional Logic using "when()"
+- Date Conversion
+- String Transformations
+- Column Removal
 
-| Topic                  | Description                   |
-| ---------------------- | ----------------------------- |
-| DataFrame Operations   | Select, Rename, Drop          |
-| Column Transformations | Create Derived Columns        |
-| Conditional Logic      | when(), otherwise()           |
-| Date Functions         | DateType Conversion           |
-| Filtering              | Business Rule-Based Filtering |
+🔹 Filter Operations
 
-## ✅ Assignment Questions Covered
+- City-based Filtering
+- Quantity-based Filtering
+- Product Category Filtering
+- Customer Age Analysis
+- Pattern Matching
+- Multi-condition Filtering
 
-### Basic Transformations (1–10)
+💻 Practice Work
 
-* Display selected columns
-* Rename columns
-* Create total_amount
-* Apply discounts
-* Convert dates
-* Filter city-wise orders
-* Create uppercase category
-* Remove unwanted columns
+✅ Questions 1 – 15
 
-### Filter Transformations (11–15)
+🧠 Key Learnings
 
-* High-value orders
-* Date range filtering
-* Customer age filtering
-* Product pattern filtering
-* Multi-city filtering
-
-## 🛠️ Key Functions
-
-```python
-select()
-withColumn()
-withColumnRenamed()
-filter()
-when()
-to_date()
-upper()
-drop()
-isin()
-startswith()
-```
-
-## 🎓 Learning Outcomes
-
-✔ DataFrame Transformations
-
-✔ Column Manipulations
-
-✔ Conditional Logic
-
-✔ Filtering Techniques
-
-✔ Date Handling
+- DataFrame manipulation techniques
+- Conditional transformations
+- Data filtering strategies
+- Business-oriented data exploration
 
 ---
 
-# 📅 Day 2: Aggregations & GroupBy Analysis
+📅 Day 2 – Aggregations & GroupBy Analytics
 
-## 🎯 Objective
+📚 Topics Covered
 
-Perform business KPI calculations and category-wise sales analysis.
+🔹 Aggregation Functions
 
-## 📚 Topics Covered
+- SUM()
+- AVG()
+- MAX()
+- MIN()
+- COUNT()
 
-| Topic              | Description             |
-| ------------------ | ----------------------- |
-| Aggregations       | Sum, Avg, Count         |
-| Revenue Analysis   | Sales Calculations      |
-| GroupBy Operations | Category-Level Analysis |
-| Customer Analytics | Revenue Reports         |
+🔹 GroupBy Analysis
 
-## ✅ Assignment Questions Covered
+- Category-wise Sales
+- City-wise Revenue
+- Customer Revenue Analysis
+- Product Quantity Analysis
+- Revenue Ranking
 
-### Aggregations (16–22)
+💻 Practice Work
 
-* Total Sales Amount
-* Quantity Sold by Category
-* Average Product Price
-* Maximum Priced Product
-* Minimum Priced Product
-* Orders by City
-* Highest Revenue Category
+✅ Questions 16 – 28
 
-### GroupBy Transformations (23–28)
+🧠 Key Learnings
 
-* Product Count by Category
-* Average Quantity per City
-* Revenue per City
-* Revenue per Customer
-* Top Customers
-* Highest Sales City
-
-## 🛠️ Key Functions
-
-```python
-groupBy()
-sum()
-avg()
-count()
-max()
-min()
-agg()
-orderBy()
-desc()
-```
-
-## 📊 Business Insights Generated
-
-* Revenue by Category
-* Revenue by City
-* Customer Spending Reports
-* Sales Performance Analysis
-
-## 🎓 Learning Outcomes
-
-✔ Business KPI Calculations
-
-✔ Revenue Analytics
-
-✔ Customer Revenue Analysis
-
-✔ Category-Wise Reporting
+- Business KPI calculations
+- Revenue analysis
+- Sales performance reporting
+- Customer spending analytics
 
 ---
 
-# 📅 Day 3: Joins, Sorting & Window Functions
+📅 Day 3 – Joins, Sorting & Window Functions
 
-## 🎯 Objective
+📚 Topics Covered
 
-Perform advanced analytics using joins and window functions.
+🔹 Join Operations
 
-## 📚 Topics Covered
+- Inner Join
+- Customer Purchase Analysis
+- Spending Reports
 
-| Topic            | Description                  |
-| ---------------- | ---------------------------- |
-| Joins            | Combining Orders & Customers |
-| Sorting          | Top-N Analysis               |
-| Distinct         | Unique Value Extraction      |
-| Window Functions | Ranking & Running Totals     |
+🔹 Sorting & Distinct
 
-## ✅ Assignment Questions Covered
+- Price-based Sorting
+- Distinct Categories
+- Distinct Cities
+- Top-N Analysis
 
-### Join Transformations (29–34)
+🔹 Window Functions
 
-* Orders & Customers Join
-* Customer Purchases
-* Customer Spending Analysis
-* Highest Spending Customer
-* City-wise Spending
-* Electronics Buyers
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- Running Revenue
+- Cumulative Quantity
 
-### Sorting & Distinct (35–38)
+💻 Practice Work
 
-* Sort Products
-* Distinct Categories
-* Distinct Cities
-* Top Expensive Orders
+✅ Questions 29 – 45
 
-### Window Functions (39–45)
+🧠 Key Learnings
 
-* Row Number
-* Rank
-* Dense Rank
-* Highest Priced Product
-* Second Highest Product
-* Running Revenue
-* Cumulative Quantity
-
-## 🛠️ Key Functions
-
-```python
-join()
-distinct()
-orderBy()
-Window()
-partitionBy()
-row_number()
-rank()
-dense_rank()
-sum().over()
-```
-
-## 📊 Business Insights Generated
-
-* Customer Spending Patterns
-* Top Revenue Customers
-* Product Ranking Reports
-* Running Sales Metrics
-
-## 🎓 Learning Outcomes
-
-✔ DataFrame Joins
-
-✔ Ranking Techniques
-
-✔ Window Analytics
-
-✔ Running Aggregations
+- Data integration techniques
+- Advanced analytical reporting
+- Ranking strategies
+- Window-based calculations
 
 ---
 
-# 📅 Day 4: Advanced Transformations & Real-Time Scenarios
+📅 Day 4 – Advanced Transformations & Real-Time Scenarios
 
-## 🎯 Objective
+📚 Topics Covered
 
-Solve real-world Data Engineering use cases using advanced PySpark features.
+🔹 Advanced Transformations
 
-## 📚 Topics Covered
+- Value Classification
+- Duplicate Detection
+- Pivot & Unpivot
+- Arrays
+- Maps
+- Explode Functions
+- RDD Conversions
 
-| Topic                    | Description                 |
-| ------------------------ | --------------------------- |
-| Advanced Transformations | Classification & Duplicates |
-| Pivot & Unpivot          | Reporting                   |
-| Arrays & Maps            | Complex Data Types          |
-| Explode                  | Flatten Nested Data         |
-| RDD Conversions          | DataFrame ↔ RDD             |
-| Business Scenarios       | Customer Analytics          |
+🔹 Real-Time Business Scenarios
 
-## ✅ Assignment Questions Covered
+- Customer Segmentation
+- Revenue Contribution Analysis
+- Customer Retention Metrics
+- Product Performance Analysis
+- Multi-category Customer Tracking
 
-### Advanced Transformations (46–55)
+🔹 Interview Preparation
 
-* Customer Value Classification
-* Duplicate Detection
-* Remove Duplicates
-* Pivot Reports
-* Unpivot Reports
-* Arrays
-* Explode
-* Maps
-* RDD Conversions
+- Data Skew
+- Broadcast Join
+- Repartition vs Coalesce
+- Catalyst Optimizer
+- Narrow vs Wide Transformations
 
-### Real-Time Data Engineering Scenarios (56–65)
+💻 Practice Work
 
-* Multi-category Customers
-* Mobile & Laptop Buyers
-* Repeat Customers
-* Revenue Contribution %
-* Monthly Sales Trends
-* Top-Selling Products
-* Bottom-Selling Products
-* Customer Retention
-* City Revenue Contribution
-* Customer Segmentation
+✅ Questions 46 – 75
 
-### Interview Questions (66–75)
+🧠 Key Learnings
 
-* select() vs withColumn()
-* distinct() vs dropDuplicates()
-* groupBy() vs Window Functions
-* Broadcast Join
-* repartition() vs coalesce()
-* Data Skew
-* Join Optimization
-* Small Files Problem
-* Narrow vs Wide Transformations
-* Catalyst Optimizer
-
-## 🛠️ Key Functions
-
-```python
-pivot()
-stack()
-array()
-explode()
-create_map()
-countDistinct()
-rdd
-toDF()
-collect()
-```
-
-## 📊 Business Insights Generated
-
-* Customer Segmentation
-* Retention Analysis
-* Revenue Contribution Reports
-* Product Performance Analysis
-
-## 🎓 Learning Outcomes
-
-✔ Real-Time Data Engineering Scenarios
-
-✔ Advanced Transformations
-
-✔ Customer Segmentation
-
-✔ Data Modeling Concepts
-
-✔ Interview Preparation
+- Advanced PySpark transformations
+- Real-world Data Engineering use cases
+- Performance optimization concepts
+- Interview-focused Spark knowledge
 
 ---
 
-# 📂 Dataset Information
+🔑 Core Concepts Implemented
 
-## Orders Dataset
-
-| Column Name |
-| ----------- |
-| order_id    |
-| customer_id |
-| product     |
-| category    |
-| price       |
-| quantity    |
-| order_date  |
-| city        |
-
-## Customers Dataset
-
-| Column Name   |
-| ------------- |
-| customer_id   |
-| customer_name |
-| age           |
-| city          |
+Category| Concepts
+Transformations| select(), withColumn(), when(), alias()
+Filtering| filter(), where(), startswith(), isin()
+Aggregations| sum(), avg(), max(), min(), count()
+Grouping| groupBy(), agg()
+Joins| Inner Join, Customer Analytics
+Sorting| orderBy(), desc()
+Window Functions| row_number(), rank(), dense_rank()
+Advanced| Pivot, Unpivot, Arrays, Maps, Explode
+Conversions| DataFrame ↔ RDD
+Analytics| Revenue, Customer, Product & City Analysis
 
 ---
 
-# 🛠️ Technologies Used
+🛠️ Tools & Technologies Used
 
-* Python
-* PySpark
-* Apache Spark
-* Databricks
-* Spark SQL
+🔥 PySpark
 
----
+⚡ Apache Spark
 
-# 🚀 Skills Practiced
+📓 Databricks
 
-### PySpark Core
+🐍 Python
 
-* DataFrames
-* Transformations
-* Actions
-* Filtering
-* Aggregations
-
-### Analytics
-
-* Revenue Analysis
-* Customer Analysis
-* Sales Reporting
-
-### Advanced Spark
-
-* Joins
-* Window Functions
-* Pivot/Unpivot
-* Arrays & Maps
-* RDD Conversions
-
-### Data Engineering
-
-* Customer Segmentation
-* Retention Analytics
-* Revenue Contribution Analysis
-* Real-Time Business Scenarios
+🌐 GitHub
 
 ---
 
-# 📁 Repository Structure
+📊 Weekly Practice Summary
 
-```text
-E-Commerce-PySpark-Assignment/
-│
-├── Day-1/
-│   ├── Questions_1_to_15
-│   └── README.md
-│
-├── Day-2/
-│   ├── Questions_16_to_28
-│   └── README.md
-│
-├── Day-3/
-│   ├── Questions_29_to_45
-│   └── README.md
-│
-├── Day-4/
-│   ├── Questions_46_to_75
-│   └── README.md
-│
-└── Main_README.md
-```
+Day| Focus Area| Questions
+Day 1| Transformations & Filters| 1 – 15
+Day 2| Aggregations & GroupBy| 16 – 28
+Day 3| Joins, Sorting & Window Functions| 29 – 45
+Day 4| Advanced Transformations & Real-Time Scenarios| 46 – 75
+
+✅ Total Questions Solved: 75
 
 ---
 
-# 🏆 Final Outcome
+🏆 Outcomes Achieved
 
-Successfully completed **75 PySpark Interview-Oriented Questions** covering:
+- Built strong PySpark DataFrame fundamentals
+- Performed real-world E-Commerce analytics
+- Implemented advanced Spark transformations
+- Practiced Data Engineering business scenarios
+- Strengthened Databricks development skills
+- Prepared for PySpark and Data Engineering interviews
 
-✅ DataFrame Transformations
+---
 
-✅ Filtering Operations
+📁 Files Included
 
-✅ Aggregations & GroupBy
+File Name| Description
+"ecommerce_analysis.py"| Complete PySpark solutions (Q1–75)
+"README.md"| Week 4 Practice Documentation
 
-✅ Joins
+---
 
-✅ Window Functions
+✅ Conclusion
 
-✅ Advanced Transformations
-
-✅ Real-Time Data Engineering Scenarios
-
-✅ Spark Interview Concepts
-
-This project demonstrates practical PySpark skills commonly required for Data Engineer roles working with Apache Spark, Databricks, and large-scale data processing systems.
-
+Week 4 provided hands-on experience in PySpark-based E-Commerce analytics through practical implementation of transformations, aggregations, joins, window functions, advanced data processing techniques, and real-world business reporting scenarios. The exercises strengthened Data Engineering fundamentals and improved the ability to build scalable analytical solutions using Spark and Databricks.
